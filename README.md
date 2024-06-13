@@ -8,8 +8,6 @@ Visit demo site:
 
 ## Author
 
----
-
 Hello people I'm <b>Galuh Baskoro</b> from the other side in Earth <br>
 I’m interested in coding, music and hiking <br>
 I’m student for software engineering faculty at Revou - Berlin
@@ -22,8 +20,6 @@ Connect with me:
 
 ## Features
 
----
-
 - About Me
 - Learning Purpose
 - Inside the Software Enginering
@@ -33,21 +29,15 @@ Connect with me:
 
 ## Built With
 
----
-
 [![github](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)](https://id.wikipedia.org/wiki/HTML5)
 
 ## Installation
-
----
 
 You can use this template on Github by cloning it or you can save it directly in zip format
 
 <code>$ git clone https://github.com/revou-fsse-5/module-1-GaluhBaskoro.git</code>
 
 ## Preview
-
----
 
 ## ![app capture 1](img/app-capture-1.PNG)
 
@@ -56,7 +46,5 @@ You can use this template on Github by cloning it or you can save it directly in
 ![app capture 3](img/app-capture-3.PNG)
 
 ## Disclaimer
-
----
 
 > ⚠ This application is learning result (assignment) on check point (#1) of module 1 in software engineering program at Revou - Berlin. is not recommended use this reference for commercial purpose.
