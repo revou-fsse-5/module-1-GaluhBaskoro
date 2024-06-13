@@ -6,6 +6,8 @@ This template is designed as a landing page that describes your identity in just
 
 Visit demo site:
 
+[![github-page](https://img.shields.io/badge/GitHub%20Pages-222222.svg?style=for-the-badge&logo=GitHub-Pages&logoColor=white)](https://revou-fsse-5.github.io/module-1-GaluhBaskoro/)
+
 ## Author
 
 Hello people I'm <b>Galuh Baskoro</b> from the other side in Earth <br>
