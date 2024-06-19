@@ -1,167 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="keywords" content="Galuh Baskoro, software engineering, revou, web portfolio, HTML, CSS, Javascript">
- <meta name="description" content="Personal Web Portfolio for Galuh Baskoro">
- <meta name="author" content="Galuh Baskoro">
- <meta property="og:title" content="Galuh Baskoro Page">
- <meta property="og:description" content="Personal web portfolio owned by Galuh Baskoro">
- <meta property="og:image" content="img/app-capture-2.png">
- <meta property="og:url" content="#">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>MasBas</title>
- <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png">
-</head>
-<body>
-
- <header>
+ <head>
+  <meta charset="UTF-8" />
+  <meta
+   name="keywords"
+   content="Galuh Baskoro, software engineering, revou, web portfolio, HTML, CSS, Javascript"
+  />
+  <meta name="description" content="Personal Web Portfolio for Galuh Baskoro" />
+  <meta name="author" content="Galuh Baskoro" />
+  <meta property="og:title" content="Galuh Baskoro Page" />
+  <meta
+   property="og:description"
+   content="Personal web portfolio owned by Galuh Baskoro"
+  />
+  <meta property="og:image" content="img/app-capture-2.png" />
+  <meta property="og:url" content="#" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MasBas | Home</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
+  <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+   href="https://fonts.googleapis.com/css2?family=Trispace:wght@100..800&display=swap"
+   rel="stylesheet"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="css/app.css" />
+ </head>
+ <body class="trispace">
+  <!-- Navigation  -->
   <nav>
-   <a href="">MasBas</a>
+   <input type="checkbox" id="menu" />
+   <label for="menu" class="menu-btn">
+    <i class="fas fa-bars"></i>
+   </label>
+   <label class="brand"> MasBas </label>
    <ul>
-    <li><a href="#">A Curious Human Being</a></li>
-    <li><a href="#">Learn to Become a Computer</a></li>
-    <li><a href="#">Advanced Technology to Change the World</a></li>
-    <li><a href="">All Roads Lead to Rome</a></li>
-    <li><a href="">Help Me Get to Know You</a></li>
-    <li><a href="">I Can't Change the World Alone</a></li>
+    <li>
+     <a href="index.html"
+      ><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a
+     >
+    </li>
+    <li>
+     <a href="become-a-computer.html"
+      ><i class="fa fa-desktop" aria-hidden="true"></i
+      ><span>Become a Computer</span></a
+     >
+    </li>
+    <li>
+     <a href="change-the-wolrd.html"
+      ><i class="fa fa-globe" aria-hidden="true"></i
+      ><span> Change the World</span></a
+     >
+    </li>
+    <li>
+     <a href="powerful-technologies.html"
+      ><i class="fa fa-code" aria-hidden="true"></i
+      ><span>Powerful Technologies</span></a
+     >
+    </li>
+    <li>
+     <a href="need-helps.html"
+      ><i class="fa fa-info-circle" aria-hidden="true"></i
+      ><span>Need Helps</span></a
+     >
+    </li>
    </ul>
   </nav>
- </header>
 
- <main>
+  <!-- Header -->
+  <header>
+   <section class="content-profile-wrap">
+    <picture class="profile-photo">
+     <source
+      media="(max-width:768px)"
+      srcset="img/profile-picture-mobile.png"
+     />
+     <img
+      src="img/profile-picture.png"
+      alt="profile-photo"
+      width="300"
+      height="400"
+     />
+    </picture>
+    <div class="profile-description">
+     <h1>Hello People on Earth</h1>
+     <p>
+      I'm <b>Galuh Baskoro</b> you can called me <b>Mas Bas</b>, since 2018 I
+      worked as a procurement policy officer at
+      <a href="https://www.len.co.id" target="_blank" class="link"
+       >Len Industry</a
+      >
+      and considering the current conditions which have entered the digital era,
+      finally I decided to learned software engineering.
+     </p>
+     <p>
+      Yups, it's different from my current job and my educational background,
+      but that's how it is. because it occurred to me,
+      <b
+       >if we are too comfortable with the current situation, we will not
+       necessarily have achieved everything</b
+      >
+      because the world is always changing all the time, therefore we have to
+      prepare for that.
+     </p>
+    </div>
+   </section>
+  </header>
 
-  <!-- About -->
-  <section>
-   <img src="img/profile-picture.png" alt="profile-photo" width="300" height="300">
-   <h1>A Curious Human Being</h1>
-   <p>
-    Hi, I'm <b>Galuh Baskoro</b> for now I work as a procurement policy officer at 
-    <a href="https://www.len.co.id" target="_blank"  class="link-dark">Len Industry</a> (a defense industry in Indonesia), and considering the current conditions which have entered the digital era, finally I decided to learned software engineering.
-    </p>
-    <p>
-    yups, it's different from my current job and my educational background, but that's how it is. because it occurred to me, if we are too comfortable with the current situation, we will not necessarily have achieved everything, because the world is always changing all the time, therefore we have to prepare for that.
-    </p>
-    <blockquote>
-     <strong>
-      <i>I can accept failure, everyone fails at something. But I can't accept not trying</i> - Michael Jordan
-     </strong>
-    </blockquote>
-  </section>
+  <!-- Main -->
+  <main>
+   <section class="content-title-wrap">
+    <h1 class="content-title">Several Things To Do:</h1>
+   </section>
 
-  <!-- Why -->
-  <section>
-   <h1>Learn to Become a Computer</h1>
-   <p>
-    Nowadays almost every human activity is very dependent on technology. such as communicating between people in various parts of the world can be done in just a matter of seconds, Financial transactions can be done with mobile phones anytime and anywhere, there are even digital currencies like Bit-Coin which can later replace paper money.
-   </p>
-   <p>
-    So there's no harm in improving your skills, because in my opinion that in the future a software engineer will be really needed in various business sectors. Therefore,  becoming an engineer can be a rewarding and fulfilling career choice for several reasons like Problem Solving, Impactful Work, Versatility, Continuous Learning, Global Opportunities, and Financial Stability.
-    </p>
-  </section>
+   <section class="content-article-wrap">
+    <article>
+     <a href="become-a-computer.html">
+      <img
+       src="img/become-a-computer.png"
+       alt="become-a-computer"
+       width="320"
+       height="320"
+      />
+     </a>
+     <h2>Become a Computer</h2>
+    </article>
+    <article>
+     <a href="change-the-wolrd.html">
+      <img
+       src="img/change-wolrd.png"
+       alt="change-the-world"
+       width="320"
+       height="320"
+      />
+     </a>
+     <h2>Change The Wolrd</h2>
+    </article>
+    <article>
+     <a href="powerful-technologies.html">
+      <img
+       src="img/powerfull-technologies.png"
+       alt="powerfull-technologies"
+       width="320"
+       height="320"
+      />
+     </a>
+     <h2>Powerful Technologies</h2>
+    </article>
+    <article>
+     <a href="need-helps.html">
+      <img src="img/need-helps.png" alt="need-helps" width="320" height="320" />
+     </a>
+     <h2>Need Helps</h2>
+    </article>
+   </section>
+  </main>
 
-  <!-- What -->
-  <section>
-   <h1>Advanced Technology to Change the World</h1>
-   <p>
-    In software engineering there is a lot to learn, starting from basic concepts to the latest technology such as:
-   </p>
-   <ul>
-    <li>Programming technology (Python, Java, C++, Etc)
-    </li>
-    <li>Algorithms and Data Structures</li>
-    <li>Software Architecture</li>
-    <li>Web Development</li>
-    <li>Mobile Software Development</li>
-    <li>Software Testing</li>
-    <li>Software Project Management</li>
-    <li>Software Security</li>
-    <li>Maintenance and Repair</li>
-    <li>Artificial Intelligence and Machine Learning</li>
-   </ul>
+  <!-- Footer -->
+  <footer>
+   <section class="footer-title-wrap">
+    <h1 class="footer-title">I Believe We Can Make the Wolrd More Better</h1>
+   </section>
 
-   <p>
-    These are just a few of the topics that can be studied in software engineering. This field is constantly evolving, so it is important to stay updated with the latest developments in the industry.
-   </p>
-  </section>
+   <!-- Contact Form -->
+   <section class="footer-content-wrap">
+    <div class="footer-contact-form">
+     <form name="contact-form" action="index.html">
+      <label for="name">Full Name</label>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <label for="email">Email</label>
+      <input
+       type="email"
+       name="email"
+       placeholder="Your Active Email"
+       required
+      />
+      <label for="country">Country</label>
+      <input
+       type="text"
+       name="country"
+       placeholder="Your Living Place on Earth"
+       required
+      />
+      <label for="message">Message</label>
+      <input type="text" name="message" placeholder="Your Message" />
+      <button type="submit" onclick="validateContactForm()">Submit</button>
+     </form>
+    </div>
+    <div class="footer-contact-description">
+     <h2>Thanks for Visiting My Site</h2>
+     <p>
+      By sending a message within any suggestions, idea and others, I hope we
+      can have a good connection in the future to make this world more better.
+     </p>
+     <p>Get Connection with Me: <br /></p>
+     <div class="social-media-link">
+      <a href="https://github.com/galuhbaskoro" target="_blank">
+       <img
+        src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white"
+        alt="github"
+        width="130"
+        height="40"
+       />
+      </a>
+      <a
+       href="https://www.linkedin.com/in/galuh-t-aji-baskoro-46b4aa145/"
+       target="_blank"
+      >
+       <img
+        src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white"
+        alt="linkedin"
+        width="130"
+        height="40"
+       />
+      </a>
+      <a href="mailto:gtab.web@gmail.com" target="_blank">
+       <img
+        src="https://img.shields.io/badge/Gmail-EA4335.svg?style=for-the-badge&logo=Gmail&logoColor=white"
+        alt="gmail"
+        width="130"
+        height="40"
+       />
+      </a>
+     </div>
+    </div>
+   </section>
 
-  <!-- How -->
-  <section>
-   <h1>All Roads Lead to Rome</h1>
-   <p>
-    Learning and understanding software engineering can feel scary, especially for someone like me, but there are several steps that might make the learning process easier as follows:
-   </p>
-   <ul>
-    <li>Start with Basic Concepts (fundamentals)</li>
-    <li>Choose the programming language that the market needs</li>
-    <li>Practice with Small Projects</li>
-    <li>Learn from Trusted Sources</li>
-    <li>Participate in the Community</li>
-    <li>Create a Network</li>
-    <li>Consistent and Practicing</li>
-    <li>Analysis and Improvement</li>
-    <li>Always study</li>
-   </ul>
-   <p>
-    Following these steps and staying consistent, you will gain a solid understanding in software engineering. Remember that patience and persistence are very important in this learning process.
-   </p>
-  </section>
+   <section class="footer-copyright-wrap">
+    <p>© 2024 Made with 💗 By Galuh Baskoro From 🌍 Bandung</p>
+   </section>
+  </footer>
 
-  <!-- Result -->
-  <section>
-   <h1>Take it One Day at a Time</h1>
-   <p>
-    Yups, that's right, as you are seeing right now, this website page is the result of my learning about software engineering for one week, and this is clear proof that anyone with any background can learn the software engineering.
-   </p>
-   <form action="">
-      <input type="radio" id="amazing" name="result_response" value="10">
-      <label for="amazing">You are Amazing</label><br>
-      <input type="radio" id="good" name="result_response" value="7">
-      <label for="good">Looks Good</label><br>
-      <input type="radio" id="improvement" name="result_response" value="4">
-      <label for="improvement">Need Improvement</label><br>
-      <input type="submit" value="Submit">
-    </form> 
-   </form>
-  </section>
-
-  <!-- Contact -->
-  <section>
-   <h1>I Can't Cange The Wolrd Alone</h1>
-   <p>
-    By sending a message within any suggestions, idea and others, I hope we can have a good connection in the future to make this world more better.
-   </p>
-   <form action="" method="post">
-    <label for="name">Name</label><br>
-    <input type="text" id="name" name="full-name">
-    <br>
-    <label for="email">Email</label><br>
-    <input type="text" id="email" name="email">
-    <br>
-    <label for="gender">Gender</label><br>
-    <select name="gender" id="gender">
-     <option value="male">Male</option>
-     <option value="female">Female</option>
-    </select><br>
-    <label for="message">Your Message</label><br>
-    <textarea name="message" id="message">
-    </textarea><br>
-    <input type="checkbox" name="agreement" id="agreement" value="agree">
-    <label for="agreement">Subscribe update email</label><br>
-    <input type="submit" value="submit">
-   </form>
-   <h2>Thanks for your time to visiting my site</h2>
-  </section>
-
- </main>
-
-<hr>
-
- <footer>
-  <small>
-   © 2024 - Made with 💕 by Galuh Baskoro from 🏠 Bandung
-  </small>
- </footer>
-
-</body>
+  <script src="js/app.js"></script>
+ </body>
 </html>

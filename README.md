@@ -2,7 +2,7 @@
 
 Vanilla Web Portfolio is website template that will used for personal web portfolio that contains severals thing for your personal branding, project collection, learning result, etc.<br>
 
-This template is designed as a landing page that describes your identity in just one page. making it easier for visitors to find out your entire portfolio without having to change pages.
+This template is designed as a landing page that describes your identity in just one page. making it easier for visitors to find out your entire portfolio.
 
 Visit demo site:
 
@@ -22,16 +22,15 @@ Connect with me:
 
 ## Features
 
-- About Me
-- Learning Purpose
-- Inside the Software Enginering
-- How to Learn
-- Learning Result
-- Social Feedback
+- Mail contact form
+- Visitor feedback
+- Article contents
 
 ## Built With
 
-[![github](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)](https://id.wikipedia.org/wiki/HTML5)
+[![html](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)](https://id.wikipedia.org/wiki/HTML5)
+[![css](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)](https://id.wikipedia.org/wiki/CSS_3)
+[![js](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)](https://id.wikipedia.org/wiki/CSS_3)
 
 ## Installation
 
@@ -41,12 +40,12 @@ You can use this template on Github by cloning it or you can save it directly in
 
 ## Preview
 
-## ![app capture 1](img/app-capture-1.PNG)
+![app capture 1](img/app-capture-1.PNG)
 
-## ![app capture 2](img/app-capture-2.PNG)
+![app capture 2](img/app-capture-2.PNG)
 
 ![app capture 3](img/app-capture-3.PNG)
 
 ## Disclaimer
 
-> ⚠ This application is learning result (assignment) on check point (#1) of module 1 in software engineering program at Revou - Berlin. is not recommended use this reference for commercial purpose.
+> ⚠ This application is learning result (advance assignment) of module 1 in software engineering program at Revou - Berlin. is not recommended use this reference for commercial purpose.

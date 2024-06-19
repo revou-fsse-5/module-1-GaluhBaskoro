@@ -1,0 +1,112 @@
+
+/* Article */
+article.article-wrap {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ margin: 70px 20px 20px 20px;
+ padding: 20px;
+ /* border: 2px dashed green; */
+}
+article.article-wrap > section.article-content {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ margin: 0px;
+ width: 70%;
+ height: auto;
+ /* border: 1px solid red; */
+}
+article.article-wrap > section.article-content > h1 {
+ font-size:29pt;
+ margin-bottom: 15px;
+ color: #e76610;
+}
+article.article-wrap > section.article-content > p {
+ font-size: 17pt;
+ font-weight: 200;
+ margin-bottom: 10px;
+ line-height: 1.5;
+}
+article.article-wrap > section.article-content > p > b {
+ font-weight: 300;
+}
+article.article-wrap > section.article-content > ul > li > b {
+ font-weight: 300;
+}
+article.article-wrap > section.article-content > ul {
+ margin-left: 30px;
+}
+article.article-wrap > section.article-content > ul > li {
+ font-size: 17pt;
+ font-weight: 200;
+ margin-bottom: 10px;
+ line-height: 1.5;
+}
+article.article-wrap > section.article-thumbnail {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ align-content: center;
+ justify-content: center;
+ width: 30%;
+ height: auto;
+ /* border: 1px solid red; */
+}
+
+/* Feedback Forms */
+section.article-content > form {
+ width: 70%;
+}
+section.article-content form > label {
+ color: #2871ad;
+ font-size: 14pt;
+ font-weight: 500;
+}
+section.article-content form > input[type=text], input[type=email] {
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ margin-top: 6px;
+ margin-bottom: 16px;
+ resize: vertical;
+}
+section.article-content form > select[name=feedback] {
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ margin-top: 6px;
+ margin-bottom: 16px;
+ resize: vertical;
+ height: auto;
+}
+section.article-content form > button[type=submit]{
+ background-color: #04AA6D;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+/* ================================================ */
+@media (max-width: 768px) {
+ article.article-wrap > section.article-content {
+  width: 100%;
+ }
+ article.article-wrap > section.article-thumbnail {
+  width: 100%;
+  margin-top: 20px;
+ }
+ article.article-wrap > section.article-thumbnail > img {
+  width: 300px;
+  height: 380px;
+ }
+ section.article-content > form {
+  width: 100%;
+ }
+}
