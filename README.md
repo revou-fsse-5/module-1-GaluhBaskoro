@@ -1,4 +1,4 @@
-# Vanilla Web Portfolio 1.0
+# Vanilla Web Portfolio 1.1
 
 Vanilla Web Portfolio is website template that will used for personal web portfolio that contains severals thing for your personal branding, project collection, learning result, etc.<br>
 
